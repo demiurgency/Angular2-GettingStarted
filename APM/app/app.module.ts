@@ -11,13 +11,13 @@ import { StarComponent } from './shared/star.component';
   imports: [
     BrowserModule,
     FormsModule
-    ],
+  ],
   declarations: [
     AppComponent,
     ProductListComponent,
     ProductFilterPipe,
     StarComponent
-    ],
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

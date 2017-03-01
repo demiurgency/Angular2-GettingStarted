@@ -73,6 +73,6 @@ export class ProductListComponent implements OnInit {
     ];
 
     toggleImage() {
-        this.showImage = ! this.showImage;
+        this.showImage = !this.showImage;
     }
 }
