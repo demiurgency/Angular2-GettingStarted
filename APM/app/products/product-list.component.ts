@@ -14,6 +14,10 @@ export class ProductListComponent implements OnInit {
         console.log('In OnInit');
     }
 
+    onRatingClicked(message: string): void {
+        this.pageTitle = 'Product List: ' + message;
+    }
+
     pageTitle: string = 'Product List';
     imageWidth: number = 50;
     imageMarging: number = 2;
